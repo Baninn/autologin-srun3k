@@ -176,7 +176,7 @@ opkg -d usb install coreutils-nohup
 
 # 环境变量
 export PATH=$PATH:/mnt/sda1/opkg/usr/bin
-echo 'export PATH=$PATH:/mnt/sdb1/opkg/usr/bin' >> /etc/profile
+echo 'export PATH=$PATH:/mnt/sda1/opkg/usr/bin' >> /etc/profile
  
 # 别名
 echo "alias opintall='opkg -d usb install'" >> /etc/profile
